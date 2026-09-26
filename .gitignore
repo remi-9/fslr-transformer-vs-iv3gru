@@ -33,6 +33,12 @@ metrics/temporal alignment/visualizations/
 
 # Allow core scripts or initialization files
 !data/__init__.py
+!data/count_stats.py
+
+# Processed data: keep only helper scripts and README (the data itself stays ignored)
+!data/processed/
+!data/processed/README.txt
+!data/processed/sync_labels.py
 
 # ------------------------------
 # Allow specific subdirectories
